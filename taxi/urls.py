@@ -7,7 +7,7 @@ from .views import (
     CarDetailView,
     DriverListView,
     DriverDetailView
-    )
+)
 
 urlpatterns = [
     path("", index, name="index"),
